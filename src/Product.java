@@ -11,24 +11,30 @@ public class Product {
 
     }
     public Product(String name) {
+
         this.name = name;
     }
     public String getName() {
+
         return name;
     }
     public double getPurchasePrice() {
+
         return purchasePrice;
     }
     public double getSellingPrice() {
         return sellingPrice;
     }
     public double getUtilityCost() {
+
         return utilityCost;
     }
     public void setName(String name) {
+
         this.name = name;
     }
     public void setSellingPrice(double sellingPrice) {
+
         this.sellingPrice = sellingPrice;
     }
 
