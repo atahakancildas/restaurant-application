@@ -1,7 +1,16 @@
 import java.util.List;
 
 public class MenuProduct extends Product{
+    private List<Product> products;
     public MenuProduct(String name, List<Product> products) {
-        super(name); //Liste kısmına bak
+        super(name);
+        this.products = products;
+    }
+    public double calculateExpense(){
+        double expense = 0;
+        for(Product product : products){
+            expense += product.getUtilityCost();//burayı düzenle
+        }
+        return expense;
     }
 }
