@@ -13,4 +13,11 @@ public class MenuProduct extends Product{
         }
         return expense;
     }
+    public double getSellingPrice(){
+        double sellingPrice = 0;
+        for(Product product : products){
+            sellingPrice += product.getSellingPrice();
+        }
+        return sellingPrice;
+    }
 }
