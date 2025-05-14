@@ -1,3 +1,5 @@
+package model;
+
 public abstract class Employee implements Expense {
     protected int id;
     protected String name;
@@ -13,19 +15,13 @@ public abstract class Employee implements Expense {
 
     public String getName() {
         return name;
-
     }
 
-    public abstract double getSalary();
+    public abstract double calculateExpense();
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+        return "Employee " + (id + 1) + ": " + name;
     }
-    @Override
-    public abstract double calculateExpense();
 }
 
