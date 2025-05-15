@@ -26,7 +26,7 @@ public abstract class Product implements Expense {
         return name;
     }
 
-    private void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -38,7 +38,7 @@ public abstract class Product implements Expense {
         return sellingPrice;
     }
 
-    private void setSellingPrice(double sellingPrice) {
+    public void setSellingPrice(double sellingPrice) {
         this.sellingPrice = sellingPrice;
     }
 
