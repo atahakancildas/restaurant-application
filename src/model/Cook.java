@@ -1,6 +1,6 @@
 package model;
 
-class Cook extends Employee {
+public class Cook extends Employee {
     private double taxRate;
     private double salary;
 
