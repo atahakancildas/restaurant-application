@@ -38,7 +38,7 @@ public abstract class Product implements Expense {
         return sellingPrice;
     }
 
-    public void setSellingPrice(double sellingPrice) {
+    private void setSellingPrice(double sellingPrice) {
         this.sellingPrice = sellingPrice;
     }
 
