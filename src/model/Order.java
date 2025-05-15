@@ -14,7 +14,7 @@ public class Order {
 
     public void listOrder() {
       for (Product product : orderedProducts) {
-        System.out.println(product.getName() + ": " + product.getSellingPrice());;
+        System.out.println(product.getName() + ": " + product.getSellingPrice());
       }
     }
 
