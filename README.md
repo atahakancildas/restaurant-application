@@ -12,8 +12,7 @@ You can clone this repository with your version management system of your choice
 
 ## Requirements
 
-Java Development Kit (JDK) 8+
-A Java IDE (Eclipse, Intellij IDEA etc.) or a terminal.
+Java Development Kit (JDK) 8+, a Java IDE (Eclipse, Intellij IDEA etc.) or a terminal.
 
 ## Contributors
 -   [atahakancildas](https://github.com/atahakancildas)
