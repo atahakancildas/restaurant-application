@@ -4,7 +4,7 @@ This project is a terminal and GUI based project which allows users to create or
 
 ## Basic Structure
 
-This project was built with MVC (Model - View - Controller) Architecture for high modular and scalable and uses Java as main language and Java Swing for GUI structure. It consists of a terminal-based part and GUI part with several screens.
+This project was built with MVC (Model - View - Controller) Architecture for high modularity and scalability and uses Java as main language and Java Swing for GUI structure. It consists of a terminal-based part and GUI part with several screens.
 
 ## Installation and Running Project
 
